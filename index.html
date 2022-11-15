@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/normalize.css">
+    <link rel="stylesheet" href="Estilos/styles.css">
+    <title>Batalla Naval</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="fliter-blur"></div>
+        <div id="formulario">
+            <div class="fliter-blur"></div>
+            <div id="div-titulo">
+                <h1 id="titulo">Batalla Naval</h1>
+            </div>
+            <form action="registrar.php" method="get">
+                <div class="jugador" id="div-jugador1">
+                    <label class="label-jugador">Jugador 1</label>
+                    <input type="text" class="in-jugador" placeholder="Nombre" name="jugador1">
+                </div>
+                <div class="jugador" id="div-jugador2">
+                    <label class="label-jugador">Jugador 2</label>
+                    <input type="text" class="in-jugador" placeholder="Nombre" name="jugador2">
+                </div>
+                <div id="div-boton">
+                    <button type="submit" id="botonEnviar">
+                        <img src="Imagenes/jugar.png" id="img-start" alt="start">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
